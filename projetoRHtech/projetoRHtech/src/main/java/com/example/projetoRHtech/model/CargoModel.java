@@ -24,10 +24,12 @@ public class CargoModel{
     @Column (nullable = false)
     private String nome;
 
-
     @Column (nullable = false)
     private String email;
 
-    @Column (nullable)
+    @Column (nullable = false)
     private String senha;
+
+    @Column (nullable = false)
+    private 
 }
